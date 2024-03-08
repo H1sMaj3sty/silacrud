@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "format": "prettier --write resources/**/*.blade.php"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.22.2",
+        "@shufo/prettier-plugin-blade": "^1.14.0",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "prettier": "^3.2.5",
+        "vite": "^5.0.0"
+    }
+}
